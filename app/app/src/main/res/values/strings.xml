@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">tigro_test</string>
+    <!-- Strings used on buttons -->
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="continue_s">Continue</string>
+
+    <!-- add contact -->
+    <string name="add_contact_title">Add Contact</string>
+    <string name="add_contact_alias">Alias</string>
+    <string name="add_contact_alias_edittext">Enter alias</string>
+    <string name="add_contact_notes">Notes</string>
+    <string name="add_contact_notes_edittext">Optional: add notes</string>
+
+    <!-- add annotation -->
+    <string name="add_annotation_title">Add Annotation</string>
+    <string name="add_annotation_identifier">Event, Title, or tigro ID</string>
+    <string name="add_annotation_identifier_edittext">Event, Title, or tigro ID</string>
+    <string name="add_annotation_annotation">Annotation</string>
+    <string name="add_annotation_annotation_edittext">Add your annotation</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="more_info">\?</string>
+    <string name="add_contact_shared_key">"Shared key: "</string>
+    <string name="query">Search</string>
+
+    <string-array name="time_units">
+        <item>Hours</item>
+        <item>Days</item>
+        <item>Weeks</item>
+    </string-array>
+
+</resources>

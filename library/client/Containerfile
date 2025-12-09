@@ -1,0 +1,27 @@
+FROM ubuntu:jammy
+
+# Install necessary dependencies. Running `apt update` first here is necessary.
+RUN apt update
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive TZ=Etc/UTC apt install wget git-all gnupg apt-transport-https python3 python3-pip -y
+
+# The commands for setting up the Tor Ubuntu repository are adapted from
+# https://support.torproject.org/apt/tor-deb-repo/.
+RUN echo '   deb     [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org jammy main' > /etc/apt/sources.list.d/tor.list
+RUN echo '   deb-src [signed-by=/usr/share/keyrings/deb.torproject.org-keyring.gpg] https://deb.torproject.org/torproject.org jammy main' >> /etc/apt/sources.list.d/tor.list
+RUN wget -qO- https://deb.torproject.org/torproject.org/A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89.asc | gpg --dearmor | tee /usr/share/keyrings/deb.torproject.org-keyring.gpg >/dev/null
+
+RUN apt update
+RUN apt install tor deb.torproject.org-keyring -y
+
+# Install the Python packages.
+COPY requirements.txt /src/
+WORKDIR /src
+RUN pip install -r requirements.txt
+
+# Add the source code to the container. Note that the .containerignore file will
+# block certain (unnecessary) files from being copied to the container.
+COPY . /src/
+
+# Execute the entrypoint.
+ENTRYPOINT [ "python3", "benchmark.py" ]

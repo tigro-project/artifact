@@ -1,0 +1,10 @@
+Downloading USCiLab-cereal-v1.3.2.tar.gz
+Successfully downloaded USCiLab-cereal-v1.3.2.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/USCiLab-cereal-v1.3.2.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/cereal/src/v1.3.2-6c68d7d381.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/cereal_x64-windows/share/cereal/copyright
+-- Performing post-build validation

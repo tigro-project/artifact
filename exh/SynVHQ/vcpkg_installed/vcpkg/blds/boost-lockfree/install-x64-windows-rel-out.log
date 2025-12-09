@@ -1,0 +1,26 @@
+Change Dir: 'C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-lockfree/x64-windows-rel'
+
+Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v -v -j17 install
+[0/1] C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\Husky\source\repos\SynVHQ\vcpkg_installed\vcpkg\blds\boost-lockfree\x64-windows-rel && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -P cmake_install.cmake"
+-- Install configuration: "Release"
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/atomic.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/copy_payload.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/freelist.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/parameter.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/prefix.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/tagged_ptr.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/tagged_ptr_dcas.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/detail/tagged_ptr_ptrcompression.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/lockfree_forward.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/policies.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/queue.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/spsc_queue.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/include/boost/lockfree/stack.hpp
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/lib/cmake/boost_lockfree-1.86.0/boost_lockfree-targets.cmake
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/lib/cmake/boost_lockfree-1.86.0/boost_lockfree-config.cmake
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-lockfree_x64-windows/lib/cmake/boost_lockfree-1.86.0/boost_lockfree-config-version.cmake
+

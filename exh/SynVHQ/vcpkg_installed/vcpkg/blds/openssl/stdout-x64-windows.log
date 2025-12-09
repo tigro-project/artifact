@@ -1,0 +1,39 @@
+Downloading openssl-openssl-openssl-3.4.0.tar.gz
+Successfully downloaded openssl-openssl-openssl-3.4.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/openssl-openssl-openssl-3.4.0.tar.gz
+-- Applying patch cmake-config.patch
+-- Applying patch command-line-length.patch
+-- Applying patch script-prefix.patch
+-- Applying patch asm-armcap.patch
+-- Applying patch windows/install-layout.patch
+-- Applying patch windows/install-pdbs.patch
+-- Applying patch unix/android-cc.patch
+-- Applying patch unix/move-openssldir.patch
+-- Applying patch unix/no-empty-dirs.patch
+-- Applying patch unix/no-static-libs-for-shared.patch
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/openssl/src/nssl-3.4.0-821e8e5bdc.clean
+Downloading strawberry-perl-5.40.0.1-64bit-portable.zip
+Successfully downloaded strawberry-perl-5.40.0.1-64bit-portable.zip.
+-- Found external ninja('1.12.1').
+-- Getting CMake variables for x64-windows
+Downloading nasm-2.16.03-win64.zip
+Successfully downloaded nasm-2.16.03-win64.zip.
+-- Getting CMake variables for x64-windows
+Downloading jom_1_1_4.zip
+Successfully downloaded jom_1_1_4.zip.
+-- Prerunning x64-windows-dbg
+-- Building x64-windows-dbg
+-- Prerunning x64-windows-rel
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/lib/pkgconfig/openssl.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst.
+-- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst.
+-- Using msys root at C:/Users/Husky/AppData/Local/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/debug/lib/pkgconfig/libcrypto.pc
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/debug/lib/pkgconfig/libssl.pc
+-- Fixing pkgconfig file: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/debug/lib/pkgconfig/openssl.pc
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/share/openssl/usage
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/openssl_x64-windows/share/openssl/copyright
+-- Performing post-build validation

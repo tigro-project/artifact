@@ -1,0 +1,9 @@
+Downloading boostorg-mpl-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-mpl-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-mpl-boost-1.86.0.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-mpl/src/ost-1.86.0-92630279e5.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-mpl_x64-windows/share/boost-mpl/copyright
+-- Performing post-build validation

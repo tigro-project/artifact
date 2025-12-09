@@ -1,0 +1,9 @@
+Downloading boostorg-optional-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-optional-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-optional-boost-1.86.0.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-optional/src/ost-1.86.0-3b4831e768.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-optional_x64-windows/share/boost-optional/copyright
+-- Performing post-build validation

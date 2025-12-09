@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    tools:context=".fragments.NameNewContactGroupFragment">
+
+    <!-- Popup background overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_height"
+        android:background="#80000000" />
+
+    <!-- Popup content layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Create Group"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/createGroupNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/white"
+            android:hint="Group Name" />
+
+        <EditText
+            android:id="@+id/createGroupNotesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="@string/add_contact_notes_edittext"
+            android:inputType="textMultiLine"
+            android:lines="5" />
+
+        <!-- Button container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/createGroupCancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/createGroupApplyBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apply" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

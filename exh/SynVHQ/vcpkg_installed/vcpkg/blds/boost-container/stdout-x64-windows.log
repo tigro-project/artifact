@@ -1,0 +1,11 @@
+Downloading boostorg-container-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-container-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-container-boost-1.86.0.tar.gz
+-- Applying patch posix-threads.diff
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-container/src/ost-1.86.0-bbec49e1ca.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-container_x64-windows/share/boost-container/copyright
+-- Performing post-build validation

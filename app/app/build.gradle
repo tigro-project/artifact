@@ -1,0 +1,130 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.6.21'
+}
+
+apply plugin: 'com.google.protobuf'
+apply plugin: 'kotlin-android'
+apply plugin: 'idea'
+
+
+android {
+    namespace 'com.example.tigro'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.tigro"
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    flavorDimensions "default"
+
+    productFlavors {
+        prod {
+            dimension "default"
+            manifestPlaceholders = [mainLauncherActivity: ".activities.LoginActivity", altActivity: ".activities.MainActivity"]
+        }
+        dev {
+            dimension "default"
+            manifestPlaceholders = [mainLauncherActivity: ".activities.MainActivity", altActivity: ".activities.LoginActivity"]
+        }
+        demo {
+            dimension "default"
+            manifestPlaceholders = [mainLauncherActivity: ".activities.LoginActivity", altActivity: ".activities.MainActivity"]
+        }
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+
+}
+
+dependencies {
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.4'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.6.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.3.0'
+    implementation 'androidx.test:monitor:1.6.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.google.zxing:core:3.4.1'
+
+    implementation 'com.journeyapps:zxing-android-embedded:4.3.0'
+    implementation "androidx.multidex:multidex:2.0.1"
+
+    implementation "androidx.room:room-ktx:2.3.0"
+    kapt "androidx.room:room-compiler:2.3.0"
+
+    implementation 'org.bouncycastle:bcpkix-jdk15on:1.69' // Bouncy Castle PKIX
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.69' // Bouncy Castle Provider
+
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+
+    // from https://stackoverflow.com/questions/67897164/how-do-you-add-grpc-to-android-studio-with-kotlin
+    implementation 'io.grpc:grpc-stub:1.52.1'
+    implementation 'io.grpc:grpc-protobuf:1.52.1'
+    implementation 'io.grpc:grpc-okhttp:1.52.1'
+    implementation 'io.grpc:protoc-gen-grpc-kotlin:1.3.0'
+    implementation 'io.grpc:grpc-kotlin-stub:1.3.0'
+    implementation 'com.google.protobuf:protobuf-kotlin:3.21.12'
+
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.0")
+
+    implementation "net.zetetic:android-database-sqlcipher:4.4.2"
+}
+
+protobuf {  // this section needs to be added
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.21.12"
+    }
+    plugins {
+        grpc {
+            artifact = "io.grpc:protoc-gen-grpc-java:1.52.1"
+        }
+        grpckt {
+            // I don't know what ":jdk8@jar" does...but it doesn't work without it.
+            artifact = "io.grpc:protoc-gen-grpc-kotlin:1.3.0:jdk8@jar"
+        }
+    }
+    generateProtoTasks {
+        all().forEach {
+            it.plugins {
+                grpc {}
+                grpckt {}
+            }
+            it.builtins {
+                kotlin {}
+                java {}
+            }
+        }
+    }
+}

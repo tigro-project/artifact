@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:src="@drawable/tigro_logo"
+            />
+
+
+        <Button
+            android:id="@+id/addContactBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Contact" />
+
+        <Button
+            android:id="@+id/submitAnnotationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Annotation" />
+
+        <Button
+            android:id="@+id/searchAnnotationBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Annotations" />
+
+        <Button
+            android:id="@+id/createGroupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Group" />
+
+        <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings" />
+
+        <Button
+            android:id="@+id/shareTestBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share test"
+            android:backgroundTint="@color/btnDisabled"/>
+
+        <Button
+            android:id="@+id/miscTestBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="misc test"
+            android:backgroundTint="@color/btnDisabled"/>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

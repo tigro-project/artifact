@@ -1,0 +1,22 @@
+CMake Warning at scripts/cmake/vcpkg_buildpath_length_warning.cmake:4 (message):
+  boost-system's buildsystem uses very long paths and may fail on your
+  system.
+
+  We recommend moving vcpkg to a short path such as 'C:\src\vcpkg' or using
+  the subst command.
+Call Stack (most recent call first):
+  C:/Users/Husky/AppData/Local/vcpkg/registries/git-trees/7c85bcb721e1a1cc3bd96660476a30c0eba11f8f/portfile.cmake:3 (vcpkg_buildpath_length_warning)
+  scripts/ports.cmake:196 (include)
+
+
+Downloading boostorg-system-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-system-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-system-boost-1.86.0.tar.gz
+-- Applying patch compat.diff
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-system/src/ost-1.86.0-c57474edd7.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-system_x64-windows/share/boost-system/copyright
+-- Performing post-build validation

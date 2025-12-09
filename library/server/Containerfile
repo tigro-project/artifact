@@ -1,0 +1,19 @@
+FROM python:3.12
+
+# Install necessary dependencies. Running `apt update` first here is necessary.
+RUN apt update
+RUN apt install redis-server -y
+
+RUN redis-server --daemonize yes
+
+WORKDIR /app
+COPY requirements.txt /app/
+
+# Install the Python packages.
+RUN pip install -r requirements.txt
+
+COPY app.py /app/
+COPY util/* /app/util/
+
+# Execute the entrypoint.
+ENTRYPOINT [ "python", "app.py" ]

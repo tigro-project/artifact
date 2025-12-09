@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+package tigro;
+
+message HelloRequest {
+    string data = 1;
+}
+
+message HelloReply {
+    string data = 1;
+}
+
+message CreatePOBoxRequest {
+    // Intentionally empty.
+}
+
+message CreatePOBoxReply {
+    uint64 poid = 1;
+}
+
+message DropMailRequest {
+    uint64 poid = 1;
+    bytes label = 2;
+    bytes mail = 3;
+}
+
+message DropMailReply {
+    // Intentionally empty.
+}
+
+message GetMailRequest {
+    uint64 poid = 1;
+    bytes label = 2;
+}
+
+message GetMailReply {
+    bytes mail = 1;
+}
+
+message DeleteMailRequest {
+    uint64 poid = 1;
+    bytes label = 2;
+}
+
+message DeleteMailReply {
+    // Intentionally empty.
+}
+
+service TigroService {
+    // No KeyGen protocol since server does not participate in KeyGen.
+    // No explicit Init protocol since the server does it on its own at initial startup.
+
+    // For testing purposes.
+    rpc Hello(HelloRequest) returns (HelloReply) {}
+
+    // CreatePOBox creates a new PiBase-based GPOB, associates it with a new poid, and
+    // sends the poid to the party in response.
+    rpc CreatePOBox (CreatePOBoxRequest) returns (CreatePOBoxReply) {}
+
+    // DropMail adds the new label-mail pair to the specified GPOB (by poid).
+    rpc DropMail (DropMailRequest) returns (DropMailReply) {}
+
+    // GetMail retrieves the mail associated with the given label from the specified
+    // GPOB (by poid).
+    rpc GetMail (GetMailRequest) returns (GetMailReply) {}
+
+    // DeleteMail deletes any mail associated with the given label from the specified
+    // GPOB (by poid).
+    rpc DeleteMail (DeleteMailRequest) returns (DeleteMailReply) {}
+}

@@ -1,0 +1,10 @@
+Downloading boostorg-interprocess-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-interprocess-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-interprocess-boost-1.86.0.tar.gz
+-- Applying patch unused-link-libs.diff
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-interprocess/src/ost-1.86.0-b668d43f93.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-interprocess_x64-windows/share/boost-interprocess/copyright
+-- Performing post-build validation

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddContactActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewAddContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_contact_title"
+            android:gravity="center"
+            android:textSize="26sp"/>
+
+        <TextView
+            android:id="@+id/textViewSharedKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_contact_shared_key" />
+
+        <TextView
+            android:id="@+id/textViewAlias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_contact_alias" />
+
+        <EditText
+            android:id="@+id/editTextAlias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/add_contact_alias_edittext"/>
+
+        <TextView
+            android:id="@+id/textViewNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_contact_notes" />
+
+        <EditText
+            android:id="@+id/editTextNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:hint="@string/add_contact_notes_edittext"
+            android:gravity="top"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/cancelContactBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@string/cancel" />
+
+            <Button
+                android:id="@+id/submitContactBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

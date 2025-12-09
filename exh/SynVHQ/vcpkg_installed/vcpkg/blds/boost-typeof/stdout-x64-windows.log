@@ -1,0 +1,9 @@
+Downloading boostorg-typeof-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-typeof-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-typeof-boost-1.86.0.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-typeof/src/ost-1.86.0-9057ec91b0.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-typeof_x64-windows/share/boost-typeof/copyright
+-- Performing post-build validation

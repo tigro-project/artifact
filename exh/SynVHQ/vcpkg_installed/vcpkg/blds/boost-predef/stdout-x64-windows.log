@@ -1,0 +1,9 @@
+Downloading boostorg-predef-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-predef-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-predef-boost-1.86.0.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-predef/src/ost-1.86.0-5ef4c73c71.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-predef_x64-windows/share/boost-predef/copyright
+-- Performing post-build validation

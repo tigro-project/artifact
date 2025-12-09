@@ -1,0 +1,9 @@
+Downloading boostorg-fusion-boost-1.86.0.tar.gz
+Successfully downloaded boostorg-fusion-boost-1.86.0.tar.gz.
+-- Extracting source C:/Users/Husky/AppData/Local/vcpkg/downloads/boostorg-fusion-boost-1.86.0.tar.gz
+-- Using source at C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/blds/boost-fusion/src/ost-1.86.0-b137a2029d.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-rel
+-- Installing: C:/Users/Husky/source/repos/SynVHQ/vcpkg_installed/vcpkg/pkgs/boost-fusion_x64-windows/share/boost-fusion/copyright
+-- Performing post-build validation

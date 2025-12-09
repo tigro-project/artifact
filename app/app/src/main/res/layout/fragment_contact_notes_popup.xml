@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/popup_height"
+    android:layout_gravity="center"
+    >
+
+    <!-- Popup background overlay -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/popup_height"
+        android:background="#80000000" />
+
+    <!-- Popup content layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/contactNotesContactNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT NAME - REPLACE"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/editTextNotesPopup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:hint="@string/add_contact_notes_edittext"
+            android:gravity="top"
+            android:layout_margin="20dp"
+            android:background="@color/white"/>
+
+        <!-- Button container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/notesPopupCloseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/close" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
