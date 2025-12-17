@@ -1,8 +1,12 @@
 # Artifact Appendix
 
+Paper title: **tigro: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations**
+
+Requested Badge(s): **Available**
+
 ## Description
 
-This repository contains the associated artifact for the paper "Tɪɢʀᴏ: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations".
+This repository contains the associated artifact for the paper "tigro: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations".
 
 It contains the reference implementations of Tigro and the benchmarks for the evaluation. The code is organized as follows:
 
