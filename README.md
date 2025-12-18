@@ -14,7 +14,7 @@ This repository contains the associated artifact for the paper "tigro: Trust Inf
 It contains the reference implementations of Tigro and the benchmarks for the evaluation. The code is organized as follows:
 
 * `app` contains the Android prototype application
-* `library` contains the Tigro client-side library with the Tor experiments
+* `library` contains the Tigro client-side library with the Tor experiments. It also contains a Pi_base server implementation which is used for benchmarking the Tor experiments.
 * `exh` contains the EXH experiments
 
 ### Security/Privacy Issues and Ethical Concerns
