@@ -1,6 +1,6 @@
 # server
 
-This directory contains the source code for the Tigro server.
+This directory contains the source code for stub Tigro server used to run the Tor benchmarks.
 
 ## Setup
 

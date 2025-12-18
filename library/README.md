@@ -1,5 +1,8 @@
-# tigro
+# library
 
-This repository contains the associated artifact for the paper "Tɪɢʀᴏ: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations". It contains the reference implementations of the Tigro client and the Tigro server used in the Experimental Evaluation section.
+`client` contains the Tigro client-side library. It also contains some benchmarks for the Tor experiments in the main body of the paper.
 
-See the `client/` and `server/` directories for the respective implementations.
+The `server` directory is used for those benchmarks.
+
+
+

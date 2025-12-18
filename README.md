@@ -2,7 +2,10 @@
 
 Paper title: **tigro: Trust Infrastructure for Grassroots Organizing via Grounded Digital Annotations**
 
-Requested Badge(s): **Available**
+Requested Badge(s):
+  - [x] **Available**
+  - [ ] **Functional**
+  - [ ] **Reproduced**
 
 ## Description
 
@@ -26,4 +29,4 @@ Please see the local `README.md` files in each folder for specific setup and exp
 
 ### Accessibility
 
-We will update this section with a link to the camera-ready version of the GitHub repository at the time of artifact acceptance.
+The artifact is accessible at https://github.com/tigro-project/artifact/tree/main.
