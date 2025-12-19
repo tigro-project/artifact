@@ -5,16 +5,16 @@ C:\Users\Husky\source\repos\SynVHQ\includes.h(300,9): warning C4267: 'argument':
 C:\Users\Husky\source\repos\SynVHQ\includes.h(298,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(385,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\includes.h(346,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(473,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\includes.h(401,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(506,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\includes.h(422,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(579,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\includes.h(495,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(29,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
@@ -41,32 +41,36 @@ C:\Users\Husky\source\repos\SynVHQ\PathOram.h(224,43): warning C4267: 'argument'
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(248,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\LDX.h(167,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\LDX.h(198,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\LDX.h(167,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\LDX.h(198,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\LDX.h(173,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\LDX.h(204,45): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\LDX.h(173,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\LDX.h(204,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\Lat.h(71,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\source\repos\SynVHQ\Lat.h(73,29): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\Lat.h(109,16): warning C4101: 'waitTime': unreferenced local variable
+C:\Users\Husky\source\repos\SynVHQ\Lat.h(166,40): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(16,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(120,12): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(131,55): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(131,55): warning C4267:         with
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(131,55): warning C4267:         [
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(131,55): warning C4267:             _Ty=int
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(131,55): warning C4267:         ]
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(149,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(150,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(244,141): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
-  client.vcxproj -> C:\Users\Husky\source\repos\SynVHQ\x64\Debug\client.exe
+C:\Users\Husky\source\repos\SynVHQ\Lat.h(134,16): warning C4101: 'waitTime': unreferenced local variable
+  (compiling source file 'ClientPerf.cpp')
+  
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(16,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(131,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         with
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         [
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:             _Ty=int
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         ]
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(161,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(162,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(272,53): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+     Creating library C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\client.lib and object C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\client.exp
+  client.vcxproj -> C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\client.exe

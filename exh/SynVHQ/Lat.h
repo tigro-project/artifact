@@ -4,8 +4,6 @@
 
 // Include for std::mutex
 
-
-
 using namespace std; // This line will allow you to use everything from the standard library without prefixing it with std::
 
 class LAT {
@@ -67,7 +65,7 @@ public:
     }
    
 
-    // (C) Here’s the corrected GetC_P function:
+   
     void GetC_P(const int& id, const std::string& label) {
       
         int response_length = DXst[label];
@@ -191,7 +189,7 @@ public:
                 }
             }
             else {
-                // no work
+             
                 label_star = "alpha";
                 id = 1;
                 flag = true;

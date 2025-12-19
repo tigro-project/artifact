@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Husky\source\repos\SynVHQ\x64\Debug\SynVHQ.exe</FullPath>
+      <FullPath>C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\SynVHQ.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Husky\source\repos\SynVHQ\x64\Debug\client.exe</FullPath>
+      <FullPath>C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\client.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

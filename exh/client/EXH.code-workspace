@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../sserver"
+		},
+		{
+			"path": "../SynVHQ"
+		}
+	]
+}

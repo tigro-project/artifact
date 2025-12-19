@@ -1,44 +1,45 @@
 ﻿  Server.cpp
 C:\Users\Husky\source\repos\SynVHQ\includes.h(300,9): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\includes.h(298,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(385,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+C:\Users\Husky\source\repos\SynVHQ\includes.h(346,30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../sserver/Server.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(473,47): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+C:\Users\Husky\source\repos\SynVHQ\includes.h(401,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../sserver/Server.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(506,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+C:\Users\Husky\source\repos\SynVHQ\includes.h(422,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../sserver/Server.cpp')
   
-C:\Users\Husky\source\repos\SynVHQ\includes.h(579,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+C:\Users\Husky\source\repos\SynVHQ\includes.h(495,40): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(29,35): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(33,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(156,36): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(157,24): warning C4244: '=': conversion from 'double' to 'size_t', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(192,56): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(215,20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(224,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
 C:\Users\Husky\source\repos\SynVHQ\PathOram.h(248,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'Server.cpp')
+  (compiling source file '../sserver/Server.cpp')
   
-  sserver.vcxproj -> C:\Users\Husky\source\repos\SynVHQ\x64\Debug\sserver.exe
+     Creating library C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\sserver.lib and object C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\sserver.exp
+  sserver.vcxproj -> C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Debug\sserver.exe

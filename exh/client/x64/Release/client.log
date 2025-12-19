@@ -62,20 +62,19 @@ C:\Users\Husky\source\repos\SynVHQ\Lat.h(166,40): warning C4267: '=': conversion
 C:\Users\Husky\source\repos\SynVHQ\Lat.h(134,16): warning C4101: 'waitTime': unreferenced local variable
   (compiling source file 'ClientPerf.cpp')
   
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(15,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(119,12): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(130,55): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(130,55): warning C4267:         with
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(130,55): warning C4267:         [
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(130,55): warning C4267:             _Ty=int
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(130,55): warning C4267:         ]
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(148,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(149,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Husky\source\repos\client\ClientPerf.cpp(249,141): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
-     Creating library C:\Users\Husky\source\repos\SynVHQ\x64\Release\client.lib and object C:\Users\Husky\source\repos\SynVHQ\x64\Release\client.exp
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(16,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(131,10): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         with
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         [
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:             _Ty=int
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(142,53): warning C4267:         ]
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(161,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(162,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\client\ClientPerf.cpp(272,53): warning C4244: 'argument': conversion from 'double' to 'size_t', possible loss of data
+     Creating library C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Release\client.lib and object C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Release\client.exp
   Generating code
-  1 of 4712 functions (<0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 4718 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  client.vcxproj -> C:\Users\Husky\source\repos\SynVHQ\x64\Release\client.exe
+  client.vcxproj -> C:\Users\Husky\OneDrive\Documents\Stuff\PhD\Tigro\SynVHQ\x64\Release\client.exe
